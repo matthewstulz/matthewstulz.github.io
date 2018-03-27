@@ -321,7 +321,7 @@ button:focus,
   color: #ffffff; }
 
 .portfolio-item:hover .portfolio-info {
-  background: -webkit-linear-gradient(top, transparent 0%, rgba(42, 84, 245, 0.5) 100%); }
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(100, 100, 100, 0.5) 100%); }
 
 /* --------------------------------------------
  *   Footer
