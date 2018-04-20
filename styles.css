@@ -154,6 +154,12 @@ ul {
     font-size: 42px;
     text-transform: uppercase; }
 
+.section-subtitle-cream h2 {
+    margin-bottom: 5px;
+    color: #EDF5E1;
+    font-size: 32px;
+    text-transform: uppercase; }
+
 .section-title-blue h1 {
     margin-bottom: 5px;
     color: #05386B;
@@ -247,16 +253,12 @@ ul {
     position: relative;
     text-align: center;
     cursor: default;
-    background: #8ee4af;
+    background: #58916E;
   }
 
   .hovereffect .overlay h2 {
-    font-size: 26px;
-    color: #05386B; }
-
-  .hovereffect .overlay h3 {
-    font-size: 26px;
-    color: #05386B; }
+    font-size: 16px;
+    color: #EDF5E1; }
 
   .hovereffect .overlay {
     width: 100%;
@@ -290,7 +292,7 @@ ul {
     color: #EDF5E1;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 15px;
     overflow: hidden;
     padding: 0.5em 0;
     background-color: transparent; }
