@@ -83,7 +83,7 @@ a:focus {
   color: #2a54f5; }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 25px; }
 
 ul {
@@ -201,6 +201,10 @@ ul {
 .header .content p {
   font-size: 22px;
   color: #05386B; }
+
+@media (max-width: 480px) {
+  .header .content p {
+    font-size: 18px; } }
 
 .header .content .social-icon {
   margin: 0;
