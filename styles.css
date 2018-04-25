@@ -12,14 +12,14 @@ hr {
 
 .left {
   background: linear-gradient(rgba(55,150,131,.4), rgba(92,219,149,.4),
-  rgba(142,228,175,.4), rgba(237,245,225,.4)), url('http://unsplash.it/1200x800')
+  rgba(142,228,175,.4), rgba(237,245,225,.4)), url('img/left.jpg')
   no-repeat;
   background-size: cover;
 }
 
 .right {
   background-color: #5CDB95;
-  box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.23); }
+  box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.23);
 }
 
 /* --------------------------------------
@@ -367,4 +367,6 @@ ul {
 
 @media (max-width: 480px) {
   .footer {
-    padding: 10px 20px; }
+    padding: 10px 20px;
+  }
+}
