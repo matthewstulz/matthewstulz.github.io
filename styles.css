@@ -166,9 +166,8 @@ ul {
     font-size: 42px;
     text-transform: uppercase; }
 
-.section-p p {
-  color: #05386B
-}
+.section-text-blue h2, h3 {
+  color: #05386B; }
 
 .section-cream {
     background-color: #EDF5E1; }
