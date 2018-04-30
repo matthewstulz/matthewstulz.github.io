@@ -1,0 +1,358 @@
+html, body {
+  font-family: 'Inconsolata', monospace;
+  height: 100%; }
+
+section {
+  padding-top: 150px; }
+
+h1 {
+  font-size: 75px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.max-w {
+  max-width: 100%;
+}
+
+/* .back {
+  background-color: blue;
+} */
+
+.blue-grey-font {
+  color: #6699CC;
+  font-weight: bold;
+}
+
+.me {
+  color: #6699CC;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.pt-10 {
+  padding-top: 70px;
+}
+
+.pb-10 {
+  padding-bottom: 70px;
+}
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #6699CC inset;
+  width: 50%
+}
+/* --------------------------------------
+ * Navbar
+ *---------------------------------------*/
+.navbar-custom {
+  background-color: #000000;
+  opacity: 0.8;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    /* color: rgba(255,255,255,.9); */
+    color: #6699CC;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    /* color: rgba(255,255,255,.5); */
+    color: #6699CC;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #6699CC;
+}
+/* .navbar-top .navbar-brand:hover,
+.navbar-top .navbar-text {
+    color: #ffffff;
+} */
+.navbar-top .navbar-brand,
+.navbar-top .navbar-text {
+    color: #ffffff;
+}
+.navbar-top .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-top .nav-item.active .nav-link,
+.navbar-top .nav-item:hover .nav-link {
+    color: #000000;
+}
+/* --------------------------------------
+ * Header
+ *---------------------------------------*/
+header {
+  background: url('img/startup.jpg'); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/startup.jpg');
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+  padding: 154px 0 100px; }
+
+header p {
+  font-size: 22px;
+  opacity: 0.9;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  margin: 10px 0;
+  animation: typing 4s steps(60, end); }
+
+header p.indent{
+  text-indent: 50px; }
+
+header p.indent2{
+  text-indent: 100px; }
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;} }
+
+@media (max-width: 768px) {
+  header p {
+    font-size: 15px;} }
+
+@media (max-width: 576px) {
+  header p {
+    font-size: 9px;} }
+
+@keyframes typing {
+  from {width: 0;} }
+
+@keyframes typing-2 {
+  0% {width: 0;}
+  50% {width: 0;}
+  100% {width: 100;} }
+
+@keyframes blink {
+  to {opacity: .0;} }
+
+.cursor {
+  animation: blink 1s infinite;
+}
+/* --------------------------------------
+ * Who am i
+ *---------------------------------------*/
+.social-icon {
+  margin: 0;
+  padding-top: 30px;
+  display: block;
+  }
+
+.social-icon li {
+  display: inline-block;
+  margin: 0 8px; }
+
+ .social-icon li a {
+  display: block;
+  font-size: 28px;
+  color: #000000;
+  background-color: #6699CC;
+  width: 48px;
+  height: 48px;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #6699CC;
+}
+
+.social-icon li a:hover {
+  border-color: #000000; }
+/* --------------------------------------
+ * Education
+ *---------------------------------------*/
+#education {
+  padding-bottom: 150px; }
+
+#education h4 span {
+  position: relative; }
+
+#education h4 span small {
+  position: absolute;
+  font-size: 13px;
+  top: -15px;
+  left: 0; }
+
+#education h4{
+  font-weight: 800;
+  margin-top: 0; }
+
+#education h4, #education h3, #education h3{
+  margin-top: 0; }
+/* --------------------------------------
+ * Fixed
+ *---------------------------------------*/
+.paral {
+  min-height: 400px; }
+
+.paral p {
+  font-size: 24px;
+  color:#ffffff;
+  text-align: center;
+  line-height: 300px; }
+
+.paralsec {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/startup.jpg') no-repeat fixed;
+  background-size: cover; }
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+/* --------------------------------------
+ * Skills & Knowledge
+ *---------------------------------------*/
+#skills h2 {
+  color: #6699CC;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#skills p {
+  text-align: center;
+}
+
+.fa-2x {
+  vertical-align: middle; }
+ /* --------------------------------------
+  * Projects
+  *---------------------------------------*/
+a.photoLink {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  /* min-width: 220px; */
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  text-decoration: none;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
+
+a.photoLink h5 {
+  color: white;
+}
+
+a.photoLink h6 {
+  color: white;
+}
+
+div.item * {
+  box-sizing: border-box;
+  transition: all .2s ease-in-out;
+  height: 100px;
+  width: 100px;
+}
+
+div.item {
+  vertical-align: top;
+  height: 275px;
+  width: 100%;
+}
+
+div.item i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 34px;
+  color: #6699CC;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #ffffff;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform .5s 0 ease;
+}
+
+div.item a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+div.item.grey-blue {
+  background-color: #6699CC;
+}
+div.item.grey-blue i {
+  color: #6699CC;
+}
+
+div.item:hover i {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform .3s .1s cubic-bezier(.37,1.05,.5,1.21);
+}
+
+#item1 {
+  background: url("img/daycare.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#item2 {
+  background: url("img/travel.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#item3 {
+  background: url("img/goals.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#item4 {
+  background: url("img/solar.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#item5 {
+  background: url("img/haiku.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#item6 {
+  background: url("img/depression.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+div.color:hover {
+  opacity: 1 !important;
+}
+
+div.color.grey-blue {
+  width:100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #6699CC80;
+}
+
+div.color.grey-blue i {
+  color: #6699CC;
+}
+
+@keyframes up {
+  0% {
+  opacity: 0;
+  transform: translateY(-10px);
+  }
+  100% {
+  opacity: 1;
+  transform: translateY(0);
+  }
+}
+/* --------------------------------------
+* Contact
+*---------------------------------------*/
+#contact h4 a{
+  color: #6699CC;
+  text-decoration: none;
+}
