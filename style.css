@@ -52,7 +52,7 @@ hr.style13 {
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-  color: #6699CC; }
+  color: #000000; }
 
 .navbar-top .navbar-brand,
 .navbar-top .navbar-text {
@@ -62,14 +62,23 @@ hr.style13 {
   color: #ffffff; }
 
 .navbar-top .nav-item.active .nav-link,
-.navbar-top .nav-item:hover .nav-link {
-  color: #000000; }
+.navbar-top .nav-item:hover .nav-link,
+.navbar-top .navbar-brand:hover {
+  color: #6699CC; }
 
 .custom-toggler.navbar-toggler {
   border-color: #6699CC; }
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102,153,204, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+.navbar-nav .nav-link {
+    margin-right: 25px;
+    margin-left: 25px; }
+
+  @media (max-width: 992px) {
+    .navbar-nav .nav-link { margin-right: 0px;
+    margin-left: 0px;} }
 /* --------------------------------------
  * Header
  *---------------------------------------*/
