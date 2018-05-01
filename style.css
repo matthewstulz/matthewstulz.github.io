@@ -60,14 +60,16 @@ hr.style13 {
 
 .navbar-top .navbar-nav .nav-link {
   color: #ffffff; }
+
 .navbar-top .nav-item.active .nav-link,
 .navbar-top .nav-item:hover .nav-link {
   color: #000000; }
+
 .custom-toggler.navbar-toggler {
   border-color: #6699CC; }
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102,153,204, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
-
 /* --------------------------------------
  * Header
  *---------------------------------------*/
@@ -214,7 +216,7 @@ header p.indent2{
   vertical-align: middle; }
 
 .paralsec {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/startup.jpg') no-repeat fixed;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(102,153,204,0.6)), url('img/binary.jpg') no-repeat fixed;
   background-size: cover; }
 
 /* Remove Bottom Margin from Jumbotron */
