@@ -21,21 +21,21 @@
   <nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-light bg-transparent fixed-top py-lg-5 navbar-top">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Resume</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse mx-auto" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">ABOUT</a></li>
-         <li class="nav-item"><a class="nav-link js-scroll-trigger pl-5" href="#skills">SKILLS</a></li>
-         <li class="nav-item"><a class="nav-link js-scroll-trigger pl-5" href="#projects">PROJECTS</a></li>
-         <li class="nav-item"><a class="nav-link js-scroll-trigger pl-5" href="#contact">CONTACT</a></li>
+         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">SKILLS</a></li>
+         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">PROJECTS</a></li>
+         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="container-fluid h-100 my-auto text-white">
+  <header class="container-fluid h-100 my-auto text-white mobileHide">
     <div class="container pt-5">
       <p>public class Person{</p>
       <p class="indent">public Person(String firstName, String lastName){</p>
@@ -49,17 +49,26 @@
     </div>
   </header>
 
+  <section id="mobile" class="header">
+    <div class="container">
+      <div class="row">
+        <h1>#Developer</h1>
+        <h2>-Matthew Stulz-</h2>
+      </div>
+    </div>
+  </section>
+
   <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-md-6 text-center">
           <h1 class="pb-3">WHO AM I?</h1>
-          <img src="img/mobile.jpg" class="max-w pb-3"/>
-          <ul class="social-icon">
-            <li><a href="https://github.com/matthewstulz" target="_blank"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/matthewstulz/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/mattstulz/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-          </ul>
+          <img src="img/mobile.jpg" class="max-w"/>
+          <div class="social-icon">
+            <a href="https://github.com/matthewstulz" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/matthewstulz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/mattstulz/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
         </div>
         <div class="col-md-5 offset-md-1 pt-5">
           <p>Dial-up to Fiber Optic</p>
@@ -96,8 +105,10 @@
     </div>
   </section>
 
-  <div class="jumbotron jumbotron-fluid paral paralsec">
-    <p>Transforming <span class="blue-grey-font">1</span>'s and <span class="blue-grey-font">0</span>'s into new ideas, leaving the old ones behind.</p>
+  <div class="jumbotron jumbotron-fluid paral row h-100 paralsec">
+    <div class="col-sm-12 my-auto">
+      <p>Transforming <span class="blue-grey-font">1</span>'s and <span class="blue-grey-font">0</span>'s into new ideas, leaving the old ones behind.</p>
+    </div>
   </div>
 
   <section id="skills">
@@ -135,11 +146,11 @@
     </div>
   </section>
 
-  <section id=projects>
+  <section id="projects">
     <div class="container">
       <h1 class="pb-5">PROJECTS</h1>
       <div class="row">
-        <div class="col-md-4 back">
+        <div class="col-md-4 col-sm-6 back">
             <a class="photoLink" href="https://github.com/matthewstulz/DaycareManager" target="_blank">
               <h5>Daycare Manager</h5>
               <h6>Ruby on Rails</h6>
@@ -150,7 +161,7 @@
              </div>
             </a>
         </div>
-        <div class="col-md-4 back">
+        <div class="col-md-4 col-sm-6 back">
             <a class="photoLink" href="https://github.com/matthewstulz/InnerTraveler" target="_blank">
               <h5>InnerTraveler</h5>
               <h6>Android Application</h6>
@@ -161,7 +172,7 @@
              </div>
             </a>
         </div>
-        <div class="col-md-4 back">
+        <div class="col-md-4 col-sm-6 back">
             <a class="photoLink" href="https://github.com/matthewstulz/AimForAmbition" target="_blank">
               <h5>AimForAmbition</h5>
               <h6>Android Application</h6>
@@ -172,7 +183,7 @@
              </div>
             </a>
         </div>
-        <div class="col-md-4 back">
+        <div class="col-md-4 col-sm-6 back">
             <a class="photoLink" href="https://github.com/matthewstulz/SolarPanelController" target="_blank">
               <h5>Solar Panel Controller</h5>
               <h6>Java Program</h6>
@@ -183,7 +194,7 @@
              </div>
             </a>
         </div>
-        <div class="col-md-4 back">
+        <div class="col-md-4 col-sm-6 back">
             <a class="photoLink" href="https://github.com/matthewstulz/HaikuGenerator" target="_blank">
               <h5>Haiku Generator</h5>
               <h6>Java Program</h6>
@@ -194,7 +205,7 @@
              </div>
             </a>
         </div>
-        <div class="col-md-4 back">
+        <div class="col-md-4 col-sm-6 back">
             <a class="photoLink" href="https://github.com/matthewstulz/DepressionDiagnosis" target="_blank">
               <h5>Depression Diagnosis</h5>
               <h6>Lisp</h6>
@@ -222,11 +233,11 @@
              <h4><a href="mailto:#">stulzm2@nku.edu</a></h4>
            </div>
            <div class="col-md-6 text-center">
-             <ul class="social-icon">
-               <li><a href="https://github.com/matthewstulz" target="_blank"><i class="fab fa-github"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/matthewstulz/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/mattstulz/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-             </ul>
+             <div class="social-icon">
+               <a href="https://github.com/matthewstulz" target="_blank"><i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/matthewstulz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+               <a href="https://www.instagram.com/mattstulz/" target="_blank"><i class="fab fa-instagram"></i></a>
+             </div>
            </div>
          </div>
      </div>
