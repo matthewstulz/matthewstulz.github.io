@@ -25,6 +25,10 @@ h1 {
   font-weight: bold;
   font-size: 45px; }
 
+.mt-20 {
+  margin-top: 200px;
+}
+
 .pt-10 {
   padding-top: 70px; }
 
@@ -263,7 +267,6 @@ a.photoLink {
   background: #000000;
   text-align: center;
   text-decoration: none;
-
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
 
 a.photoLink h5 {
@@ -271,6 +274,12 @@ a.photoLink h5 {
 
 a.photoLink h6 {
   color: white; }
+
+a.photoLink .link {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
 
 div.item * {
   box-sizing: border-box;
